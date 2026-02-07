@@ -1,12 +1,12 @@
 import { useContext } from 'react'
 import './App.css'
-import Photo from './assets/components/photos/photo.jsx'
-import image from './assets/components/photos/images/image-icon.svg'
-import search from './assets/components/photos/images/search-svgrepo-com.svg'
-import PhotosCountainer from './assets/components/PhotosCountainer.jsx'
+import Photo from './components/photos/photo.jsx'
+import image from './components/photos/images/image-icon.svg'
+import search from './components/photos/images/search-svgrepo-com.svg'
+import PhotosCountainer from './components/PhotosCountainer.jsx'
 
 
-import { PhotoContext } from './assets/components/PhotosProvider.jsx'
+import { PhotoContext } from './components/PhotosProvider.jsx'
 
 function App() {
   const { photos, query, setQuery, searched, loading, setLoading, handleSubmit } = useContext(PhotoContext)
