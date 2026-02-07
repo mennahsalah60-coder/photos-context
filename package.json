@@ -1,7 +1,7 @@
 {
   "name": "photos-web",
   "private": true,
-  "homepage": "https://mennahsalah60-coder.github.io/photos-context/",
+  "homepage": "https://mennahsalah60-coder.github.io/photos-context",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
